@@ -356,7 +356,7 @@ export const App = () => {
           </PureCell>
         ))}
 
-        <div>
+        <div style={{ marginTop: '12px' }}>
           <div
             onClick={() => {
               setCollapsedItem(items =>
